@@ -1,0 +1,11 @@
+jigsaw-toxic-comment-classification-challenge.zip
+.vscode/settings.json
+*.pkl
+docker/Dockerfile
+run.sh
+.vector_cache/wiki.simple.vec
+.vector_cache/wiki.simple.vec.pt
+notebooks/.vector_cache/*
+src/torch/.vector_cache/*
+src/torch/model/__pycache__*
+src/torch/utils/__pycache__/utils.cpython-38.pyc

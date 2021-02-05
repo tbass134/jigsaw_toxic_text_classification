@@ -1,0 +1,13 @@
+
+version: 2
+
+workflows:
+  single-node:
+    steps:
+      -
+        name: "single-node"
+        command: experiment.run_single_node
+        params:
+          command: python src/sklearn/train.py
+          container: tbass134/deepo-nltk   
+          machineType: "C3"
